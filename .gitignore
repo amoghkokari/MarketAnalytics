@@ -1,0 +1,5 @@
+.DS_Store
+data
+gclvenv
+notebooks/.ipynb_checkpoints
+sql/customerAnalytics.db
