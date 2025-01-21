@@ -1,3 +1,4 @@
+-- At what percent has Fetch grown year over year?
 -- Since we have transactions only for 2024, only the growth interms of users onbaorded can be measured for year-over-year user acquisition as proxy for compnay growth
 
 WITH user_growth AS (
