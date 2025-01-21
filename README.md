@@ -35,5 +35,5 @@ Before running SQL queries, check the `exploratory_data_analysis.ipynb` notebook
 Installation of required modules is commented in the notebook.
 
 ## Reports & Visuals
-Data quality issues and challenging fields are addressed in the `findings` file inside the `reports` folder.
+Data quality issues and challenging fields are addressed in the `findings.pdf` file inside the `reports` folder.
 Visuals are located in the `visuals` directory.
