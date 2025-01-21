@@ -8,11 +8,22 @@ Run brew install sqlite.
 ### Linux:
 Run sudo apt-get install sqlite3.
 
-You will need the following CSV files from data/processed:
+### Data Needed:
+You will need the following CSV files from data/raw:
 
--   products.csv
--   users.csv
--   transactions.csv
+-   PRODUCTS_TAKEHOME.csv
+-   USER_TAKEHOME.csv
+-   TRANSACTION_TAKEHOME.csv
+
+## Data Preparation
+Before running SQL queries, check the `exploratory_data_analysis.ipynb` notebook in the notebooks folder. This `notebook` cleans the raw data from `data/raw` and saves it in `data/processed`, which is used by SQL queries.
+Installation of required modules is commented in the notebook.
+
+The following CSV files will be loaded in data/processed after `exploratory_data_analysis.ipynb` notebook is run, uncommend to_csv files save the files:
+
+-   PRODUCTS_TAKEHOME.csv
+-   USER_TAKEHOME.csv
+-   TRANSACTION_TAKEHOME.csv
 
 ## Database Setup
 1) Run the following command to create a new SQLite database:
@@ -29,10 +40,6 @@ You will need the following CSV files from data/processed:
 4) For better table formatting, enable headers and column mode:
 -   `.headers ON`
 -   `.mode column`
-
-## Data Preparation
-Before running SQL queries, check the `exploratory_data_analysis.ipynb` notebook in the notebooks folder. This `notebook` cleans the raw data from `data/raw` and saves it in `data/processed`, which is used by SQL queries.
-Installation of required modules is commented in the notebook.
 
 ## Reports & Visuals
 Data quality issues and challenging fields are addressed in the `findings.pdf` file inside the `reports` folder.
