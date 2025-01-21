@@ -20,11 +20,11 @@ You will need the following CSV files from data/processed:
 
 2) In the SQLite shell (sqlite>), execute:
 -   `.read create_tables.sql`
-This will create all the required tables.
+-   This will create all the required tables.
 
 3) Run SQL queries from the files:
 -   `.read open_ended_querie_1.sql`
-Expected responses are commented in the SQL files. Refer to closed_ended_querie_3, open_ended_querie_3, open_ended_querie_1 for examples.
+-   Expected responses are commented in the SQL files. Refer to closed_ended_querie_3, open_ended_querie_3, open_ended_querie_1 for examples.
 
 4) For better table formatting, enable headers and column mode:
 -   `.headers ON`
