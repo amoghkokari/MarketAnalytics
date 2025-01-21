@@ -8,7 +8,7 @@ Run brew install sqlite.
 ### Linux:
 Run sudo apt-get install sqlite3.
 
-### Data Needed:
+## Data Needed:
 You will need the following CSV files from data/raw:
 
 -   PRODUCTS_TAKEHOME.csv
